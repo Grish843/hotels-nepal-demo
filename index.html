@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#173b35">
+    <title>Hotels Nepal INC | Discover a stay in Nepal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="concept-bar">
+        Independent concept preview · Sample listings are not confirmed hotel partners
+    </div>
+
+    <header class="site-header">
+        <a class="brand" href="#">
+            <span class="brand-mark">H</span>
+            <span class="brand-name">Hotels Nepal <small>INC</small></span>
+        </a>
+
+        <nav class="main-nav">
+            <a href="#stays">Explore stays</a>
+            <a href="#stories">Hotel stories</a>
+            <a href="#reviews">Guest ratings</a>
+        </nav>
+
+        <a class="button button-small button-dark" data-whatsapp
+            data-message="Namaste, I would like to ask about hotel promotion.">
+            Promote your hotel
+        </a>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-shade"></div>
+            <div class="hero-content">
+                <span class="eyebrow eyebrow-light">YOUR NEXT NEPAL STORY STARTS HERE</span>
+                <h1>Find a stay<br>worth the journey.</h1>
+                <p>
+                    Explore stays, discover hotel stories, and find inspiration
+                    for your next trip around Nepal.
+                </p>
+
+                <div class="search-panel">
+                    <label for="destination">Where do you want to go?</label>
+                    <div class="search-row">
+                        <select id="destination">
+                            <option value="all">Anywhere in Nepal</option>
+                            <option value="kathmandu">Kathmandu</option>
+                            <option value="pokhara">Pokhara</option>
+                            <option value="chitwan">Chitwan</option>
+                        </select>
+                        <button class="button button-orange" id="searchButton" type="button">
+                            Explore stays
+                        </button>
+                    </div>
+                </div>
+                <p class="hero-note">Preview only · Search does not check availability yet.</p>
+            </div>
+
+            <div class="hero-caption">
+                <span class="caption-dot"></span>
+                Discover Nepal at your own pace
+            </div>
+        </section>
+
+        <section class="section stays-section" id="stays">
+            <div class="section-heading">
+                <div>
+                    <span class="eyebrow">A PLACE FOR EVERY KIND OF TRIP</span>
+                    <h2>Explore stays</h2>
+                    <p class="section-intro">
+                        Sample listings show how hotels could appear on the finished site.
+                    </p>
+                </div>
+                <span class="demo-pill">DEMO LISTINGS</span>
+            </div>
+
+            <p id="searchMessage" class="search-message" aria-live="polite"></p>
+
+            <div class="hotel-grid" id="hotelGrid">
+                <article class="hotel-card" data-location="kathmandu">
+                    <div class="hotel-photo photo-kathmandu">
+                        <span class="photo-label">SAMPLE STAY</span>
+                        <span class="photo-icon">🏘️</span>
+                    </div>
+                    <div class="hotel-info">
+                        <div class="hotel-location">KATHMANDU · CITY</div>
+                        <h3>Courtyard House</h3>
+                        <p>A sample boutique stay near the heart of the city.</p>
+                        <a class="text-link" data-whatsapp
+                            data-message="Namaste, I am interested in the sample Kathmandu stay. Please share hotel details.">
+                            Ask about this stay <span>↗</span>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="hotel-card" data-location="pokhara">
+                    <div class="hotel-photo photo-pokhara">
+                        <span class="photo-label">SAMPLE STAY</span>
+                        <span class="photo-icon">🏔️</span>
+                    </div>
+                    <div class="hotel-info">
+                        <div class="hotel-location">POKHARA · LAKESIDE</div>
+                        <h3>Lake & Mountain Lodge</h3>
+                        <p>A sample lakeside stay with mountain views nearby.</p>
+                        <a class="text-link" data-whatsapp
+                            data-message="Namaste, I am interested in the sample Pokhara stay. Please share hotel details.">
+                            Ask about this stay <span>↗</span>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="hotel-card" data-location="chitwan">
+                    <div class="hotel-photo photo-chitwan">
+                        <span class="photo-label">SAMPLE STAY</span>
+                        <span class="photo-icon">🌿</span>
+                    </div>
+                    <div class="hotel-info">
+                        <div class="hotel-location">CHITWAN · NATURE</div>
+                        <h3>Green Forest Retreat</h3>
+                        <p>A sample nature stay for a slower kind of getaway.</p>
+                        <a class="text-link" data-whatsapp
+                            data-message="Namaste, I am interested in the sample Chitwan stay. Please share hotel details.">
+                            Ask about this stay <span>↗</span>
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="story-section" id="stories">
+            <div class="story-copy">
+                <span class="eyebrow eyebrow-light">SEE THE PLACE, FEEL THE STORY</span>
+                <h2>Hotel stories<br>that bring Nepal closer.</h2>
+                <p>
+                    Short hotel features can show guests the rooms, food, people,
+                    and local experiences behind each stay.
+                </p>
+                <a class="button button-light" href="#partners">Feature your hotel</a>
+            </div>
+
+            <div class="video-preview">
+                <div class="video-circle">▶</div>
+                <strong>Hotel video preview</strong>
+                <span>Replace with video approved by the hotel</span>
+            </div>
+        </section>
+
+        <section class="partner-section" id="partners">
+            <div class="partner-art" aria-hidden="true">
+                <span>✦</span>
+                <span>✦</span>
+                <span>✦</span>
+            </div>
+            <div class="partner-copy">
+                <span class="eyebrow">FOR HOTEL OWNERS</span>
+                <h2>Give your hotel<br>a story worth sharing.</h2>
+                <p>
+                    Introduce your rooms, location, and guest experience to travellers
+                    exploring Nepal.
+                </p>
+                <a class="button button-dark" data-whatsapp
+                    data-message="Namaste, I would like to learn about promoting my hotel.">
+                    Contact us on WhatsApp
+                </a>
+            </div>
+        </section>
+
+        <section class="section rating-section" id="reviews">
+            <div class="rating-heading">
+                <span class="eyebrow">YOUR EXPERIENCE MATTERS</span>
+                <h2>Rate this website preview</h2>
+                <p class="section-intro">
+                    Share feedback about this demo design.
+                </p>
+            </div>
+
+            <div class="rating-layout">
+                <div class="rating-summary">
+                    <strong id="averageRating">—</strong>
+                    <div class="summary-stars" id="summaryStars">☆☆☆☆☆</div>
+                    <span id="ratingCount">No ratings yet</span>
+                </div>
+
+                <form id="ratingForm" class="rating-form">
+                    <label class="form-label">Choose a star rating</label>
+                    <div class="star-picker" role="group" aria-label="Choose a rating">
+                        <button type="button" class="star-button" data-rating="1" aria-label="1 star">☆</button>
+                        <button type="button" class="star-button" data-rating="2" aria-label="2 stars">☆</button>
+                        <button type="button" class="star-button" data-rating="3" aria-label="3 stars">☆</button>
+                        <button type="button" class="star-button" data-rating="4" aria-label="4 stars">☆</button>
+                        <button type="button" class="star-button" data-rating="5" aria-label="5 stars">☆</button>
+                    </div>
+
+                    <label class="form-label" for="reviewText">Comment (optional)</label>
+                    <textarea id="reviewText" maxlength="300"
+                        placeholder="What do you think of the website?"></textarea>
+
+                    <button class="button button-orange" type="submit">Submit rating</button>
+                    <p id="ratingMessage" class="rating-message" aria-live="polite">
+                        Demo ratings are saved only in this browser.
+                    </p>
+                </form>
+            </div>
+
+            <div id="reviewList" class="review-list"></div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <a class="brand footer-brand" href="#">
+            <span class="brand-mark">H</span>
+            <span class="brand-name">Hotels Nepal <small>INC</small></span>
+        </a>
+        <p>Independent concept preview · Not the official business website</p>
+        <a data-whatsapp data-message="Namaste, I have a question about Hotels Nepal.">
+            WhatsApp contact
+        </a>
+    </footer>
+
+    <a class="whatsapp-float" data-whatsapp data-message="Namaste, I have a question about Hotels Nepal."
+        aria-label="Contact on WhatsApp">
+        <span>◉</span> WhatsApp
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
